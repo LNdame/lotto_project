@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Lotto</string>
+
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_welcome_slider">WelcomeSlider</string>
+    <string name="title_activity_view_result">ViewResult</string>
+    <string name="title_activity_scan_ticket">ScanTicket</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_lotto_login">LottoLogin</string>
+
+
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile">Cell Number</string>
+    <string name="hint_reg_mobile">Cell Number (i.e 0725557766)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_pre_password">Previous Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_sign_up">Create Account</string>
+    <string name="btn_log_in">Get in</string>
+    <string name="btn_send_forgotten">Send</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+
+
+
+
+</resources>
