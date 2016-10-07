@@ -1,5 +1,6 @@
 package ansteph.com.lotto.view.registration;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,5 +21,20 @@ public class LottoLogin extends AppCompatActivity {
 
 
     }
+
+
+
+    @Override
+    public void onBackPressed() {
+        //Do nothing...
+    }
+
+    public void registerClient (View view)
+    {
+
+        Intent intent = new Intent(getApplicationContext(), Registration.class);
+        startActivity(intent);
+    }
+
 
 }

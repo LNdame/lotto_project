@@ -72,6 +72,11 @@
             android:label="@string/title_activity_lotto_login"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+            android:name=".view.play.HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/SplashTheme">
+        </activity>
     </application>
 
 </manifest>

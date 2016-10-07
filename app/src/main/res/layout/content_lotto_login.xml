@@ -63,12 +63,13 @@
         android:layout_height="wrap_content">
 
         <EditText
+
             android:id="@+id/input_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
             android:textColorHint="@color/colorAccent"
-            android:inputType="textPassword"
+            android:inputType="numberPassword"
             android:drawableLeft="@mipmap/ic_lockpin"
             android:hint="Pin" />
     </android.support.design.widget.TextInputLayout>
